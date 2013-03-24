@@ -46,7 +46,7 @@ if __name__ == '__main__':
 
     assert(teststring == decode(encode(teststring, testpwd), testpwd))
 
-    print "Success!"
+    print "SuccessFUll!"
 
 
 
