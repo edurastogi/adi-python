@@ -70,9 +70,8 @@ for file_name, status in ready_files.items():
         conn.close()
 
 
-/*
-In this code, we make a call to the /ready-files endpoint to get the list of ready files, which is returned in JSON format. 
-We then loop over the files and download any files that are in the "Ready" status using the /get-file endpoint. 
-The downloaded CSV data is then parsed and saved to SQL Server using the same process as in the previous example. 
-Note that in this example, we're using the filename as the table name, but you may want to modify this to fit your naming convention.
-*/
+
+#In this code, we make a call to the /ready-files endpoint to get the list of ready files, which is returned in JSON format.
+#We then loop over the files and download any files that are in the "Ready" status using the /get-file endpoint.
+#The downloaded CSV data is then parsed and saved to SQL Server using the same process as in the previous example.
+#Note that in this example, we're using the filename as the table name, but you may want to modify this to fit your naming convention.
